@@ -30,5 +30,13 @@ module Puppet
       }
     end
 
+    newproperty(:owner) do
+      desc "Owner of the htpasswd file"
+    end
+
+    newproperty(:group) do
+      desc "Group of the htpasswd file"
+    end
+
   end
 end
